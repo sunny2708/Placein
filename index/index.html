@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Placein</title>
+    <link
+    rel="shortcut Icon"
+    type="image/ssd.jpg"
+    href="image/ssd.jpg"
+    >
+</head>
+<body>
+  <div class="relative">
+    
+    <nav class="absolute top-0 left-0 right-0 z-10 mt-6 mr-20">
+        <ul class="flex space-x-5 text-black  sm: ml-[5rem] mt-[-6rem] md:ml-[16.5rem]  lg:ml-[23rem] mt-[-2rem] xl:ml-[37.7rem] mt-[2rem]">
+            
+            <a href="https://sunny2708.github.io/Porfolio/" class="hover:bg-red-600 hover:px-1.5 font-bold text-lg">About Me</a>
+            <a href="signup.html" class="hover:bg-red-600 hover:px-1.5 font-bold text-lg">Register</a>
+        
+            <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/" class="hover:bg-red-600 hover:px-1.5 font-bold text-lg">Imp DSA Problems</a>
+        </ul>
+    </nav>
+  </div>
+  
+  <main class="flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent p-16 rounded-lg shadow-xl z-10 border-4 border-black  ">
+    <img src="image/ssd.jpg" alt="" class="w-56 -mt-5" >
+    <input id="login_email" class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Email">
+    <input id="login_password" class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"  type="password" placeholder="******************">
+    <button id="login1" class="my-5 bg-red-600 rounded-2xl h-9 text-white">Login</button>
+    <a href="forgotpassword.html" class="text-blue-500 mx-11 truncate text-sm">Forget Password ?</a>
+  </main>
+
+
+  
+  <script src="firebase2.js" type="module"></script>
+</body>
+</html>
